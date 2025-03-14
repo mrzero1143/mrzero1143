@@ -1,5 +1,36 @@
+<<<<<<< HEAD
 # Object file
 *.o
 
 # Ada Library Information
 *.ali
+=======
+# Ignore file-file Python yang tidak diperlukan
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+
+# Ignore file build/dist jika menggunakan PyInstaller atau tools lain
+build/
+dist/
+*.spec
+
+# Ignore file IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+
+# Ignore file log atau temporary
+*.log
+*.tmp
+
+# Ignore file sistem operasi
+.DS_Store
+Thumbs.db
+>>>>>>> Initial commit by Mr_zero1143
